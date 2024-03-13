@@ -1,0 +1,110 @@
+
+@import url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+@import url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+
+*{
+    padding: 0;
+}
+body{
+    background-color:  hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px ;
+    height: auto;
+    border-radius: 20px;
+    margin: 50px 0px 50px 0px;
+    border: none;
+}
+.card_inner{
+    padding: 30px;
+}
+.card_image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1, h3{
+   font-family: 'YoungSerif';
+   font-weight: 700;
+}
+.card_recipe--title{
+    color: hsl(24, 5%, 18%);
+    margin: 30px 0px 20px 0px;
+}
+.card_recipe--intro{
+    font-size: 16px;
+    font-weight: 400;
+    color:  hsl(30, 10%, 34%);
+}
+.card_recipe--preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+.card_recipe--preparation-inner{
+    padding: 30px;
+}
+.card_recipe--preparation_time{
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+.card_recipe--preparation_list{
+    margin: 0px;
+}
+ul li, ol li{
+    color: hsl(30, 10%, 34%);
+    margin-top: 8px;
+}
+.card_recipe--preparation_list-item::marker{
+    color: hsl(332, 51%, 32%);
+} 
+.card_recipe--preparation_list, .card_recipe--preparation_list-item, 
+.card_recipe--ingredients_list, .card_recipe--ingredients_list-item,
+.card_recipe--instructions_list{
+    padding-left: 20px;
+}
+.card_recipe--instructions_list-item{
+    padding-left: 10px;
+}
+.card_recipe--ingredients{
+    padding-bottom: 5px;
+    margin: 30px 0px 25px 0px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.card_recipe--ingredients_list,
+.card_recipe--instructions_list{
+    margin: 20px 0px;
+}
+.card_recipe--heading{
+    color: hsl(14, 45%, 36%);
+}
+.card_recipe--ingredients_list-item::marker,
+.card_recipe--instructions_list-item::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.card_recipe--instructions{
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.card_recipe--nutrition{
+    margin-bottom: 20px;
+    color: hsl(30, 10%, 34%);
+}
+.card_recipe--nutrition_text{
+    margin: 20px 0px 20px 0px;
+}
+.container > :not(:last-child){
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.row > :nth-child(2){
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
+.row > :nth-child(1){
+    padding: 10px 0px 10px 20px;
+}
